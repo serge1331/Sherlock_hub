@@ -21,8 +21,11 @@ uvicorn src.main:app --reload
 ## Structure de l'API
 
 /api
+
     /app
+
         /src
+
             /collect
                 __init__.py
                 collect.py
